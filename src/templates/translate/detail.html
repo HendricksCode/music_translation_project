@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<!-- <h1>{{ english }}</h1> this was the first way of doing things which was not as efficient
+<p>{{ german }}</p> -->
+<h1>{{ object.english }}</h1>
+<p>{{ object.german }}</p>
+<p>{{ object.italian }}</p>
+<p>{{ object.french }}</p>
+{% endblock %} 

@@ -1,0 +1,12 @@
+{% extends 'base.html' %} #if you just did this and not the block content tags the page would pull exactly from base.html
+
+{% block content %}
+<h1>Hello World,</h1>
+<p>This is a template</p>
+{% endblock %}
+
+{% block another_content_area %}
+    <h1>Test test</h1>
+    <p>This is another blocked content area</p>
+    <p>And it is different then the one on the terms page</p>
+    {% endblock %}
